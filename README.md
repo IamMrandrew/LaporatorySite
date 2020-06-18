@@ -1,7 +1,7 @@
 # LaporatorySite
-www.laporatory.com
+Here is the [Website Link](www.laporatory.com)
 
-# Introduction
+## Introduction
 
 ### Domain Name
 Laporatory.com
@@ -9,7 +9,7 @@ Laporatory.com
 ### Web Hosting
 Netlify
 
-# Application Used
+## Application Used
 
 ### Text Editor
 Atom
@@ -19,7 +19,7 @@ SourceTree
 
 GitHub
 
-# TODO
+## TODO
 * Going to practise HTML, CSS here
 * Static Website without Database
 
