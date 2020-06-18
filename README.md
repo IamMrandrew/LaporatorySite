@@ -3,18 +3,18 @@ Here is the [Website Link](www.laporatory.com)
 
 ## Introduction
 
-### Domain Name
+#### Domain Name
 Laporatory.com
 
-### Web Hosting
+#### Web Hosting
 Netlify
 
 ## Application Used
 
-### Text Editor
+#### Text Editor
 Atom
 
-### Version Control
+#### Version Control
 SourceTree 
 
 GitHub
