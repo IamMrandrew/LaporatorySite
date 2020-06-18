@@ -1,5 +1,5 @@
 # LaporatorySite
-Here is the [Website Link](www.laporatory.com)
+You can access the site [here](www.laporatory.com)
 
 ## Introduction
 
