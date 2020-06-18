@@ -1,1 +1,15 @@
-hi
+div{
+
+}
+#appleNav{
+  background-color: #303030;
+}
+
+#warningButton{
+  background-color: black;
+  border-color : black;
+}
+
+.number1{
+  background-color: yellow;
+}
