@@ -1,5 +1,5 @@
 # LaporatorySite
-Website Link www.laporatory.com
+www.laporatory.com
 
 # Introduction
 
