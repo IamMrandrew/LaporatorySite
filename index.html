@@ -15,16 +15,25 @@
 </head>
 
 <body>
+  <style>
 
-  <nav id="appleNav" class="navbar navbar-expand-lg navbar-dark sticky-top">
+  .custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(214, 214, 214, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler{
+    border-color : #303030;
+  }
+  </style>
+
+  <nav id="appleNav" class="navbar navbar-expand-lg navbar-dark sticky-top py-0">
     <div class="container" style="width: 1140px;">
-    <a class="navbar-brand  d-lg-none" href="#"><img src="img/appleLogo.svg"></a>
+    <a class="navbar-brand d-lg-none mx-auto" href="#"><img src="img/appleLogo.svg"  width = "38px" height= 48px"></a>
 
-    <button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler order-first custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
 
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item  px-4">
           <a class="nav-brand d-none d-lg-block"   href="#" class="mx-auto"><img src="img/appleLogo.svg"> </a>
