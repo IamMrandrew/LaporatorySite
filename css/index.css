@@ -28,3 +28,19 @@
 .custom-toggler.navbar-toggler{
   border-color : #303030;
 }
+.section_container {
+  position : relative;
+}
+
+.section_container img {
+  padding-top : 50px;
+}
+
+.text-wrapper {
+  position : absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin : auto;
+
+}
