@@ -1,10 +1,9 @@
 # LaporatorySite
-You can access the site [here](www.laporatory.com)
 
 ## Introduction
 
 #### Domain Name
-Laporatory.com
+//
 
 #### Web Hosting
 Netlify
