@@ -124,3 +124,23 @@ button:hover {
   font-size: 17px;
 }
 
+.main_image{
+  padding-top: 50px;
+  
+}
+.maintext{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+.mainimage img{
+  width: 50%;
+  height: auto;
+  padding-bottom: 50px;
+}
+.mainimage{
+  text-align: center;
+}
