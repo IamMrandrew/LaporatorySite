@@ -24,7 +24,7 @@ h2{
 .card-link, .card-link:link, .card-link:visited, .card-link:focus, .card-link:hover, .card-link:active{
   text-decoration: none;
   color:black;
-  cursor: zoom-in;
+  cursor: pointer;
 }
 
 button {
@@ -125,6 +125,7 @@ button:hover {
 }
 
 .main_image{
+  background-color: rgb(248, 248, 248);  
   padding-top: 50px;
   
 }
