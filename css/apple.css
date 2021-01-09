@@ -1,0 +1,226 @@
+#appleNav{
+  background-color: #303030;
+}
+
+#appleNav .nav-brand {
+  padding : 0px;
+}
+
+#appleNav .nav-brand img {
+  width: 38px;
+  height: 48px;
+}
+
+.nav-link {
+  color : #D6D6D6;
+}
+
+.navbar div ul li a:hover {
+  color: #F5F5F7;
+}
+#backgroundOf1 {
+  background-color :#0071E3;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(214, 214, 214, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler{
+  border-color : #303030;
+}
+
+
+@media screen and (min-width: 768px) {
+  .section_container {
+    position : relative;
+  }
+  
+  .section_container img {
+    padding-top : 50px;
+  }
+  
+  .text-wrapper {
+    position : absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin : auto;
+  }
+}
+
+.navCOVID p {
+  background-color:#0071E3;
+  color: #ffffff;
+  font-weight: 400; 
+  font-size:14px;
+}
+
+.navWhite p {
+  background-color: white;
+  font-weight: 400;
+  font-size: 14px;  
+}
+
+/* iPhoneSE */
+@media screen and (max-width: 768px) {
+  .addpadding {
+    padding-top: 200px; 
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .section_container {
+    position : relative;
+  }
+  
+  
+  .text-wrapper {
+    position : absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin : auto;
+  }
+}
+
+
+/* iPhoneSE */
+.iPhoneSE{
+  background-color: #131313;
+  padding-top: 50px;
+  padding-bottom: 0px  
+}
+
+.iPhoneSE h1{
+  font-size: 56px;
+  color: white;
+  padding-top:0px;
+  font: Helvetica;
+  font-weight: 300
+}
+
+.iPhoneSE h2{
+  font-size: 28px;
+  color: white;
+  padding-top:0px;
+  font: Helvetica;
+  font-weight: 300
+}
+
+.iPhoneSE h3{
+  font-size: 17px;
+  color: #86868B;
+  padding-top:0px;
+  font: Helvetica;
+  font-weight: 300
+}
+
+.iPhoneSE img{
+  width: 100%;
+}
+
+/* iPhone11 */
+.iPhone11 {
+  padding-top:15px;
+  background-color:#fbfbfd;
+}
+
+.iPhone11 .section_container2 {
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.iPhone11 .spacing-div {
+  height: 200px;
+  background-color:#fbfbfd;
+}
+
+.iPhone11 h1 {
+  font-size: 40px;
+  font-weight:600;
+}
+
+.iPhone11 img {
+  width : 100%;
+  margin : 0px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .text-wrapper2 {
+    position : absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin : auto;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .display-none {
+    padding-top: 10px;
+    display: none;
+  }
+
+  .text-wrapper2 {
+    padding-top: 30px;
+  }
+}
+
+/* Airpods Pro */
+.row1 p{
+  font-size: 17px;
+  color: #1D1D1F
+}
+
+.row1 .col1 {
+  line-height: 500px;
+  text-align: center;
+}
+
+.row1 .item-wrapper {
+  display: inline-block;
+  line-height: 25px;
+}
+
+.AirpodsProTextContainer{
+  max-width : 300px
+}
+
+.AirpodsProImage{
+  width : 100%;
+}
+
+/* AppleCard */
+.col2 {
+  line-height: 400px;
+  text-align: center;
+}
+.item-wrapper2 {
+  display: inline-block;
+  line-height: 25px;
+}
+.row2 .col1 img{
+  display : block;
+  width : 100%;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.row2 .col2 p {
+  font-size: 17px;
+  color: #1D1D1F;
+}
+
+.row2 .col2 img {
+  display : block;
+}
+footer {
+  color: #86868B;
+  font-size: 12px;
+  padding-bottom: 20px;
+}

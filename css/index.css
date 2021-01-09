@@ -1,226 +1,99 @@
-#appleNav{
-  background-color: #303030;
+html{
+    cursor: ;
 }
-
-#appleNav .nav-brand {
-  padding : 0px;
-}
-
-#appleNav .nav-brand img {
-  width: 38px;
-  height: 48px;
-}
-
-.nav-link {
-  color : #D6D6D6;
-}
-
-.navbar div ul li a:hover {
-  color: #F5F5F7;
-}
-#backgroundOf1 {
-  background-color :#0071E3;
-}
-
-.custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(214, 214, 214, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-.custom-toggler.navbar-toggler{
-  border-color : #303030;
-}
-
-
-@media screen and (min-width: 768px) {
-  .section_container {
-    position : relative;
-  }
+body {
+  font-family: Microsoft JhengHei;
+  margin: 0px;
   
-  .section_container img {
-    padding-top : 50px;
-  }
+}
+
+p {
+  margin: 0px;
+}
+
+
+h2{
+  font-size: 30px;
+  font-weight: 600;
+  color: #202020; 
+
+  margin: 0px;
+  padding: 3px;
+}
+
+.card-link, .card-link:link, .card-link:visited, .card-link:focus, .card-link:hover, .card-link:active{
+  text-decoration: none;
+  color:black;
+  cursor: zoom-in;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
   
-  .text-wrapper {
-    position : absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin : auto;
-  }
+  background-color: #202020;
+  color: #FFFFFF;
+  border-radius: 12px;
+  padding: 8px 15px;    
+  cursor: pointer;
 }
 
-.navCOVID p {
-  background-color:#0071E3;
-  color: #ffffff;
-  font-weight: 400; 
-  font-size:14px;
+button:hover {
+  background-color: #4B4B4B;
 }
 
-.navWhite p {
-  background-color: white;
-  font-weight: 400;
-  font-size: 14px;  
-}
-
-/* iPhoneSE */
-@media screen and (max-width: 768px) {
-  .addpadding {
-    padding-top: 200px; 
-  } 
-}
-
-@media screen and (max-width: 768px) {
-  .section_container {
-    position : relative;
-  }
-  
-  
-  .text-wrapper {
-    position : absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin : auto;
-  }
-}
-
-
-/* iPhoneSE */
-.iPhoneSE{
-  background-color: #131313;
-  padding-top: 50px;
-  padding-bottom: 0px  
-}
-
-.iPhoneSE h1{
-  font-size: 56px;
-  color: white;
-  padding-top:0px;
-  font: Helvetica;
-  font-weight: 300
-}
-
-.iPhoneSE h2{
-  font-size: 28px;
-  color: white;
-  padding-top:0px;
-  font: Helvetica;
-  font-weight: 300
-}
-
-.iPhoneSE h3{
-  font-size: 17px;
-  color: #86868B;
-  padding-top:0px;
-  font: Helvetica;
-  font-weight: 300
-}
-
-.iPhoneSE img{
+.product-img{
   width: 100%;
 }
 
-/* iPhone11 */
-.iPhone11 {
-  padding-top:15px;
-  background-color:#fbfbfd;
+.product-text-1{
+    font-size: 17px;
+    padding: 7px 15px;
+}
+.product-text-2{
+    font-size: 16px;
+    padding: 7px 15px;
 }
 
-.iPhone11 .section_container2 {
-  position: relative;
-  padding-left: 0px;
-  padding-right: 0px;
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 500px; */
+    flex-wrap: wrap;
+    
+    
 }
-
-.iPhone11 .spacing-div {
-  height: 200px;
-  background-color:#fbfbfd;
-}
-
-.iPhone11 h1 {
-  font-size: 40px;
-  font-weight:600;
-}
-
-.iPhone11 img {
-  width : 100%;
-  margin : 0px;
-}
-
-
-
-@media screen and (min-width: 768px) {
-  .text-wrapper2 {
-    position : absolute;
-    top: 40px;
-    left: 0;
-    right: 0;
-    margin : auto;
-  }
-}
-
-
 
 @media screen and (max-width: 768px) {
-  .display-none {
-    padding-top: 10px;
-    display: none;
+  .card-product {
+    flex: 100%;    
+  }    
+  
+  .card-link {
+    flex: 100%;
   }
-
-  .text-wrapper2 {
-    padding-top: 30px;
-  }
 }
 
-/* Airpods Pro */
-.row1 p{
-  font-size: 17px;
-  color: #1D1D1F
+.my-container {
+  max-width: 970px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.row1 .col1 {
-  line-height: 500px;
-  text-align: center;
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
-.row1 .item-wrapper {
-  display: inline-block;
-  line-height: 25px;
+.card-product{
+    box-shadow: 0px 1px 15px -4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 60px;
 }
 
-.AirpodsProTextContainer{
-  max-width : 300px
-}
-
-.AirpodsProImage{
-  width : 100%;
-}
-
-/* AppleCard */
-.col2 {
-  line-height: 400px;
-  text-align: center;
-}
-.item-wrapper2 {
-  display: inline-block;
-  line-height: 25px;
-}
-.row2 .col1 img{
-  display : block;
-  width : 100%;
-  margin-left : auto;
-  margin-right : auto;
-}
-
-.row2 .col2 p {
-  font-size: 17px;
-  color: #1D1D1F;
-}
-
-.row2 .col2 img {
-  display : block;
-}
-footer {
-  color: #86868B;
-  font-size: 12px;
-  padding-bottom: 20px;
-}
