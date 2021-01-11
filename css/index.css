@@ -70,16 +70,6 @@ button:hover {
   margin-bottom: 60px;
 }
 
-@media screen and (max-width: 768px) {
-  .card-product {
-    flex: 100%;
-  }
-
-  .card-link {
-    flex: 100%;
-  }
-}
-
 .my-container {
   padding-top: 60px;
   max-width: 970px;
@@ -166,7 +156,7 @@ button:hover {
   color: #000000;
 }
 .topic-img p {
-  font-size: 22px;
+  font-size: 24px;
   padding-left: 15px;
   font-weight: bold;
 }
@@ -177,4 +167,31 @@ button:hover {
   flex-basis: 35%;
   font-size: 18px;
   font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .card-product {
+    flex: 100%;
+  }
+
+  .card-link {
+    flex: 100%;
+  }
+
+  .hot_article {
+    flex-direction: column;
+    padding-right: 0%;
+  }
+
+  .topic-img {
+    padding-right: 0px;
+    margin-bottom: 5px;
+  }
+  .topic-img p {
+    font-size: 20px;
+    padding-left: 0%;
+  }
+  .topic-text {
+    font-size: 16px;
+  }
 }
