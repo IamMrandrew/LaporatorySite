@@ -145,15 +145,13 @@ button:hover {
 }
 .hot_article {
   display: flex;
-  cursor: pointer;
+
   padding-top: 0px;
   padding-bottom: 20px;
   padding-right: 20px;
   align-items: center;
   justify-content: center;
   box-shadow: 0px 1px 15px -4px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
-  color: #000000;
 }
 .hot_article img {
   padding-top: 0px;
@@ -163,6 +161,9 @@ button:hover {
 .topic-img {
   flex-basis: 65%;
   padding-right: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000000;
 }
 .topic-img p {
   font-size: 22px;
